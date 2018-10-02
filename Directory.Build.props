@@ -1,0 +1,14 @@
+<Project>
+  <PropertyGroup>
+    <AssemblyName>Sample</AssemblyName>
+    <RuntimeIdentifier>osx.10.12-x64</RuntimeIdentifier>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Program.cs"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Security.Keychain" Version="0.8.0"/>
+  </ItemGroup>
+</Project>
